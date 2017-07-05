@@ -1,0 +1,14 @@
+{
+  "name": "Logo",
+  "description": "Displays the image which url is in props",
+  "elementName": "marcel-plugin-logo",
+  "files": ["index.html"],
+  "props": [
+    { 
+      "name": "url",
+      "description": "Url of the image to display", 
+      "type": "String", 
+      "defaultValue": ""
+    }
+  ]
+}
